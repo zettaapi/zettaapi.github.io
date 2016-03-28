@@ -284,6 +284,11 @@ pre code {
   margin-top: 0;
   margin-bottom: 30px;
 }
+.features .subtitle {
+  color: #000000;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
 .features a {
   color: #480A0B;
 }
@@ -305,9 +310,14 @@ pre code {
 }
 .docs .title {
   color: #000000;
-  margin-top: 0;
+  margin-top: 40px;
   margin-bottom: 30px;
 }
+.docs .subtitle {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
 .docs .docs-inner {
   max-width: 800px;
   background: #fff;
@@ -457,7 +467,8 @@ pre code {
 }
 .license .info {
   max-width: 760px;
-  margin: 0 auto;
+  margin: 40px auto;
+  text-align: center;
 }
 .license .cta-container {
   max-width: 540px;
